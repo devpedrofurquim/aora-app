@@ -4,6 +4,7 @@ import { Link } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import {images} from '../constants'
+import Button from '../components/Button';
 
 export default function App() {
   return (
@@ -37,6 +38,12 @@ export default function App() {
           <Text className="text-sm text-gray-100 font-pregular mt-7 text-center">
             Where creativity meets inovation: embark on a journey of limitless exploration with Aora
           </Text>
+
+          <Button
+            children='Continue with Email'
+            handlePress={() => {}}
+            containerStyles='w-full mt-7'
+          />
         </View>
       </ScrollView>
     </SafeAreaView>
