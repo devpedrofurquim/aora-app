@@ -41,7 +41,7 @@ const SignIn = () => {
            />
 
           <Button
-            children='Continue with Email'
+            children='Sign In'
             handlePress={() => {}}
             containerStyles='mt-7'
             isLoading={isSubmitting}
